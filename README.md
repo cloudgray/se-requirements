@@ -10,6 +10,27 @@
 - 코디 문제
   - 무난한 추천 코디를 보여줄 수 있도록 한다
 
+### Schedule & Budget
+Project requirement | 코드 버전 관리 및 협업
+--- | ---
+Description | Github를 이용해서 소스코드를 공유
+Measurable |
+Achievable | 깃허브 리포지토리를 만들고, Collaborator로 등록하거나 Pull Request를 받는다
+Relevant | Schedule
+Specific | 같은 팀 끼리는 협업을 하기 편하게 하고, 팀 전체에서는 코드를 정기적으로 공유하여 진행상황을 서로 확인하기 쉽게 한다.
+Reference |
+
+Project requirement | 코드 버전 관리 및 협업
+--- | ---
+Description | Github를 이용해서 소스코드를 공유
+Measurable |
+Achievable | 깃허브 리포지토리를 만들고, Collaborator로 등록하거나 Pull Request를 받는다
+Relevant | Schedule
+Specific | 같은 팀 끼리는 협업을 하기 편하게 하고, 팀 전체에서는 코드를 정기적으로 공유하여 진행상황을 서로 확인하기 쉽게 한다.
+Reference |
+
+
+
 <!--
 ### Budget and Schedule
 -->
