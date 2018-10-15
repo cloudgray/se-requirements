@@ -10,6 +10,10 @@
 - 코디 문제
   - 무난한 추천 코디를 보여줄 수 있도록 한다
 
+<!--
+### Budget and Schedule
+-->
+
 ### Development Requirements
 
 Project requirement | 코드 버전 관리 및 협업
@@ -54,7 +58,7 @@ Reference |
 
 - Priority는 큰 숫자일수록 우선순위가 높은 것입니다.
 
-Requirement | ??
+Requirement | U2RQ-1
 --- | ---
 Title | 로그인 기능
 Priorirty | 10
@@ -70,7 +74,7 @@ WinWin Agreement(s) |
 Mainstream Scenario |
 Exception Handling Scenario |
 
-Requirement | U2RQ-1
+Requirement | U2RQ-2
 --- | ---
 Title | 개인화된 추천
 Priorirty | 7
@@ -86,7 +90,7 @@ WinWin Agreement(s) |
 Mainstream Scenario |
 Exception Handling Scenario |
 
-Requirement | U2RQ-2
+Requirement | U2RQ-3
 --- | ---
 Title | 옷의 분류와 비교
 Priorirty | 9
@@ -102,7 +106,7 @@ WinWin Agreement(s) |
 Mainstream Scenario |
 Exception Handling Scenario |
 
-Requirement | U2RQ-3
+Requirement | U2RQ-4
 --- | ---
 Title | 신체 정보에 따른 리뷰 자동 등록
 Priorirty | 8
@@ -118,7 +122,7 @@ WinWin Agreement(s) |
 Mainstream Scenario |
 Exception Handling Scenario |
 
-Requirement | U2RQ-4
+Requirement | U2RQ-5
 --- | ---
 Title | 관심 품목에 대한 세일 푸시 알림 기능
 Priorirty | 5
@@ -143,7 +147,7 @@ Project requirement | SIR-1 사용성
 Description | 쉽게 사용할 수 있어야 한다.
 Measurable | 원하는 기능을 사용할 때까지의 소요시간(클릭 횟수)
 Achievable | 화면의 구성과 메뉴의 flow, 버튼의 크기 등
-Relevant | UI, UX, Front
+Relevant |
 Reference |
 
 Project requirement | SIR-2 광고
@@ -151,6 +155,46 @@ Project requirement | SIR-2 광고
 Description | 광고인듯 광고가 아닌 것 처럼 끼워둘 수 있는 UI.
 Measurable | 사용자가 광고임을 인지할 수 있으면서도 이용에 불편을 주지 않아야 함
 Achievable | 전체적인 UI와 위화감이 없는 광고 디자인
+Relevant |
+Reference |
+
+Project requirement | 앱 처음 실행 화면
+--- | ---
+Description | 사용자의 회원가입/정보 입력을 받아야 한다.
+Measurable |
+Achievable | 이미 가입한 사용자는 로그인, 처음 사용하는 사용자는 회원가입 후 신체 정보 및 선호 정보를 입력할 수 있도록 한다.
+Relevant |
+Reference |
+
+Project requirement | 앱 메인 화면
+--- | ---
+Description | 메인 화면에서 구입하려는 카테고리를 선택하거나 추천 코디를 선택할 수 있게 한다.
+Measurable |
+Achievable | 품목 카테고리를 선택하면 카테고리에 속한 품목 목록, 추천 코디를 선택하면 코디의 아이템들을 보여주는 페이로 이동한다.
+Relevant |
+Reference |
+
+Project requirement | 카테고리 화면
+--- | ---
+Description | 카테고리를 선택하고 품목의 목록을 선택한 기준에 따라 정렬할 수 있도록 한다.
+Measurable |
+Achievable | 목록을 출력하고 특정한 품목을 선택하면 상품 상세 정보 화면으로 이동한다.
+Relevant |
+Reference |
+
+Project requirement | 추천 코디 화면
+--- | ---
+Description | 추천 코디를 선택하면 코디에 포함된 품목들의 목록을 보여준다.
+Measurable |
+Achievable | 목록을 출력하고 특정한 품목을 선택하면 상품 상세 정보 화면으로 이동한다.
+Relevant |
+Reference |
+
+Project requirement | 품목별 상세 정보 화면
+--- | ---
+Description | 하나의 품목의 상세 정보와 리뷰를 확인할 수 있고, 구매 페이지로 이어진다.
+Measurable |
+Achievable |
 Relevant |
 Reference |
 
