@@ -11,22 +11,22 @@
   - 무난한 추천 코디를 보여줄 수 있도록 한다
 
 ### Schedule & Budget
-Project requirement | 코드 버전 관리 및 협업
+Project requirement | schdule
 --- | ---
-Description | Github를 이용해서 소스코드를 공유
-Measurable |
-Achievable | 깃허브 리포지토리를 만들고, Collaborator로 등록하거나 Pull Request를 받는다
-Relevant | Schedule
-Specific | 같은 팀 끼리는 협업을 하기 편하게 하고, 팀 전체에서는 코드를 정기적으로 공유하여 진행상황을 서로 확인하기 쉽게 한다.
+Description | The cost of development for the software should be near zero
+Measurable | For the course, there is no financial aid provided.
+Achievable | The app will be developed as a project for a Software Engineering course. Freeware and free APIs will be used.
+Relevant | 
+Specific | Schedule
 Reference |
 
-Project requirement | 코드 버전 관리 및 협업
+Project requirement | budget
 --- | ---
-Description | Github를 이용해서 소스코드를 공유
-Measurable |
-Achievable | 깃허브 리포지토리를 만들고, Collaborator로 등록하거나 Pull Request를 받는다
-Relevant | Schedule
-Specific | 같은 팀 끼리는 협업을 하기 편하게 하고, 팀 전체에서는 코드를 정기적으로 공유하여 진행상황을 서로 확인하기 쉽게 한다.
+Description | Launch a web-bases native prototype app.
+Measurable | The prototype app should be completed by mid-December.
+Achievable | Include data crawling functions and basic UI/UX & server should be made.
+Relevant | The project needs to be finished before the class ends with tangible results.
+Specific | Schedule constraints.
 Reference |
 
 
@@ -36,6 +36,15 @@ Reference |
 -->
 
 ### Development Requirements
+
+Project requirement | 개발자 회의
+--- | ---
+Description | 팀원들이 주기적으로 만나서 service에 대한 회의를 진행한다.
+Measurable | 일주일에 한 번 정도를 원칙으로 한다.
+Achievable | 프로젝트에 진행에 대한 특정 주제에 대해 더 폭 넓게 서로 이해하기 위해 다 같이 모여 회의를 진행한다.
+Relevant | 개발 팀 구분
+Specific | 첫 2~3번의 회의는 전체 회의로 진행하되, 그 이후는 팀 구성에 따라서 유동적으로 할 수 있게 한다.
+Reference |
 
 Project requirement | 코드 버전 관리 및 협업
 --- | ---
@@ -60,9 +69,28 @@ Project requirement | 개발 팀 구분
 Description | 프론트엔드/백엔드로 개발팀을 구분
 Measurable |
 Achievable | 개발자의 역할 구분으로 개발 효율 향상
-Relevant |
+Relevant | 백엔드 개발/프론트 개발
 Specific | 9명의 조원을 팀으로 구성, 각 팀마다 역할을 할당해 개발의 효율성을 올리고 미팅 등에 있어서 시간적 융통성을 부여함으로써 전체적인 개발의 효율성 및 성능을 끌어 올림
 Reference |
+
+Project requirement | 백엔드 개발
+--- | ---
+Description | 사용 언어 : nodejs, python, mysql
+Measurable |
+Achievable | 서버 개발에는 nodejs, 크롤링에 python, db 구축에 mysql 쓸 예정
+Relevant | 프론트엔드/백엔드로 개발팀을 구분
+Specific | 각각 구성 개발에 필요한 최대한 효율적인 언어를 선택해서 사용.
+Reference |
+
+Project requirement | 프론트 개발
+--- | ---
+Description | 사용 언어 : 
+Measurable |
+Achievable | 
+Relevant | 프론트엔드/백엔드로 개발팀을 구분
+Specific | 
+Reference |
+
 
 Project requirement | 데이터 포맷
 --- | ---
@@ -159,6 +187,38 @@ WinWin Agreement(s) |
 Mainstream Scenario |
 Exception Handling Scenario |
 
+Requirement | U2RQ-6
+--- | ---
+Title | 유저들의 리뷰 작성 유도
+Priorirty | 7
+Description | 유저들이 리뷰를 작성하는 것을 유도하기 위해 포인트제, 회원 등급제 등을 도입
+Input(s) | 포인트, 회원 등급
+Source(s) | 구매자의 후기
+Output(s) | 자세하게 작성된 신뢰성이 있는 리뷰
+Destination(s) |
+Precondition(s) | 
+Postcondition(s) |
+Proposed Activity |
+WinWin Agreement(s) |
+Mainstream Scenario |
+Exception Handling Scenario |
+
+Requirement | U2RQ-7
+--- | ---
+Title | 추천 방식
+Priorirty | 
+Description | 사용자마다 추천되는 품목을 다르게 한다.
+Input(s) | 에디터
+Source(s) | 구매자의 정도(신체정보, 선호도)
+Output(s) | 에디터에 의해 사용자에게 비교적 최적화된 옷 추천
+Destination(s) |
+Precondition(s) | 에디터들의 시간, 자본, 패션에 대한 정보
+Postcondition(s) |
+Proposed Activity |
+WinWin Agreement(s) |
+Mainstream Scenario |
+Exception Handling Scenario |
+
 ## System Interface Requirements
 
 ### User Interface Requirements
@@ -214,13 +274,50 @@ Reference |
 Project requirement | 품목별 상세 정보 화면
 --- | ---
 Description | 하나의 품목의 상세 정보와 리뷰를 확인할 수 있고, 구매 페이지로 이어진다.
-Measurable |
+Measurable | 해당 품목에는 관련된 데이터가 보여지도록 한다.(구매한 사람의 size 비율, 특정 체형의 구매 비율 등)
 Achievable |
 Relevant |
 Reference |
 
-<!--
+
 ## Level of Service Requirements
 
+Project requirement | LOR-1
+--- | ---
+Description | Meet the current security standard
+Measurable | 개발자와 user간에, 상호 user간에도 접근 권한을 둔다.
+Achievable | Unauthorized users shouldn’t be able to gain access to the system or the Webmail account. Each user must have access to his/her data only. 
+Relevant | Security
+Specific | 
+Reference |
+
+Project requirement | LOR-2
+--- | ---
+Description | Provide access to the application anytime, anywhere.
+Measurable | web-app을 통해 이 service를 구현한다.
+Achievable | Access to the system should be possible to anytime by any device.
+Relevant | Esae of use
+Specific | 
+Reference |
+
+Project requirement | LOR-3
+--- | ---
+Description | Provide intuitional GUI.
+Measurable | 
+Achievable | The user should be able to use the system easily without learning how to use the system.
+Relevant | Easy to use
+Specific | USers will be able to use the system easily.
+Reference |
+
+Project requirement | LOR-4
+--- | ---
+Description | Optimization for various devices.
+Measurable | The service must be able to be used by various devices, at least devices with big portions of users.
+Achievable | 
+Relevant | Accessibility
+Specific | The system should be tested in many OS versions.
+Reference |
+
+<!--
 ## Evolution Requirements
 -->
